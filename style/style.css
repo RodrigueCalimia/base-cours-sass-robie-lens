@@ -3,14 +3,9 @@
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 1em;
   background-color: #1f2039;
-}
-
-a {
-  color: #242424;
-  text-decoration: none;
 }
 
 em {
@@ -21,7 +16,7 @@ em {
 h1 {
   font-size: 3.5em;
   color: #a5b4fc;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
@@ -48,10 +43,6 @@ footer {
   padding: 20px 30px;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .cta:hover {
   background: linear-gradient(#696484, #8788ba);
   text-decoration: none;
@@ -69,7 +60,6 @@ section {
   padding: 80px;
 }
 
-footer,
 nav {
   display: flex;
   flex-direction: row;
@@ -79,6 +69,12 @@ nav {
 
 nav a {
   margin-left: 30px;
+  color: #242424;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 996px) {
@@ -87,26 +83,21 @@ nav a {
     align-items: center;
     justify-content: center;
   }
-
   header nav img {
     margin-bottom: 20px;
   }
-
   header,
   footer {
     padding: 20px 20px;
   }
-
   h1 {
     font-size: 2em;
   }
-
   section {
     padding: 50px 20px 50px 20px;
   }
-
   nav a {
     margin-left: 10px;
     margin-right: 10px;
   }
-}
+}/*# sourceMappingURL=style.css.map */
